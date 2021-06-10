@@ -1,0 +1,31 @@
+module.exports = {
+  parser: '@typescript-eslint/parser',
+  extends: [
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
+    'airbnb-typescript',
+  ],
+  parserOptions: {
+    ecmaVersion: 2020,
+    sourceType: 'module',
+    project: './tsconfig.json',
+    tsconfigRootDir: __dirname,
+    ecmaFeatures: { jsx: true },
+  },
+  rules: {
+    'react/jsx-uses-react': 0,
+    'react/react-in-jsx-scope': 0,
+    '@typescript-eslint/member-delimiter-style': [2, { multiline: { delimiter: 'none' } }],
+    '@typescript-eslint/semi': [2, 'never', { beforeStatementContinuationChars: 'always' }],
+    '@typescript-eslint/quotes': ['error', 'single', { allowTemplateLiterals: true }],
+    'react/destructuring-assignment': 0,
+    'react/no-array-index-key': 1,
+    'react/require-default-props': 0,
+    'react/no-unused-prop-types': 0,
+    'arrow-parens': [0, 'always'],
+    'object-curly-newline': [2, { multiline: true }],
+    'operator-linebreak': [2, 'after', { overrides: { '?': 'before', ':': 'before' } }],
+    'arrow-body-style': 0,
+    'react/jsx-props-no-spreading': 0,
+  },
+}
