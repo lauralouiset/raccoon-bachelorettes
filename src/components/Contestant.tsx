@@ -25,6 +25,7 @@ const Name = styled.p`
   margin: 5px 0;
   text-align: center;
   font-size: 18px;
+  font-family: 'Boxed Bold', sans-serif;
 `
 
 const P = styled.p`

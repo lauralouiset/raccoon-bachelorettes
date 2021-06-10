@@ -180,7 +180,7 @@ export const men = {
   jeff: {
     name: 'Jeff',
     age: 31,
-    job: 'Gym Owner',
+    job: 'Surgical Skin Salesman',
     hometown: 'Jersey City, NJ',
     image: 'jeff.jpg',
     axedEpisode: 1,

@@ -14,3 +14,12 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+@font-face {
+  font-family: "Boxed Bold";
+  src: url("/fonts/boxedRegularBold.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
