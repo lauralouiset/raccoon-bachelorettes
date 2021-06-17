@@ -82,7 +82,7 @@ export const men = {
     job: 'Zipper Sales Manager',
     hometown: 'San Diego, CA',
     image: 'cody.jpg',
-    axedEpisode: null,
+    axedEpisode: 2,
     quirks: [],
     limoExit: '',
     cries: 0,
