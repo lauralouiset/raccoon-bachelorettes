@@ -97,6 +97,7 @@ export const men = {
     quirks: ['ukulele', 'cat suit'],
     limoExit: 'cat suit',
     cries: 0,
+    kisses: 2,
   },
   conorC: {
     name: 'Conor C',
@@ -153,6 +154,7 @@ export const men = {
     limoExit: '',
     firstImpressionRose: true,
     cries: 0,
+    oneOnOne: 1,
   },
   hunter: {
     name: 'Hunter',
@@ -323,10 +325,10 @@ export const men = {
     job: 'Real Estate Broker',
     hometown: 'Poway, CA',
     image: 'thomas.jpg',
-    axedEpisode: 1,
     quirks: [''],
     limoExit: '',
     cries: 0,
+    kisses: 2,
   },
   tre: {
     name: 'Tré',
